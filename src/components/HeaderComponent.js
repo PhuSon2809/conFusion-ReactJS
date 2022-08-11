@@ -153,7 +153,7 @@ class Header extends Component {
           style={{ backgroundColor: "#9575CD", borderRadius: 0 }}
         >
           <div className="container">
-            <div className="row row-header">
+            <div className="row row-header pt-3 pb-3">
               <div className="col-12 col-sm-6">
                 <h1>Ristorante con Fusion</h1>
                 <p>
