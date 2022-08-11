@@ -29,7 +29,7 @@ class Menu extends Component {
   render() {
     const menu = this.props.dishes.map((dish) => {
       return (
-        <div className="col-12 col-md-6 mb-4">
+        <div className="col-12 col-md-3 mb-4">
           <div key={dish.id}>
             <RenderMenuItem dish={dish} onClick={this.props.onClick} />
           </div>
